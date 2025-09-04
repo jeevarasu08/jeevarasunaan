@@ -1,0 +1,149 @@
+body {
+
+  font-family: Arial, sans-serif;
+
+  background: linear-gradient(to right, #e0f7fa, #fffde7);
+
+  padding: 20px;
+
+}
+
+h1 {
+
+  text-align: center;
+
+  color: #1b5e20;
+
+  background: #ffeb3b;
+
+  padding: 15px;
+
+  border-radius: 10px;
+
+  box-shadow: 0 3px 8px rgba(0,0,0,0.2);
+
+}
+
+.search-bar {
+
+  text-align: center;
+
+  margin: 20px 0;
+
+}
+
+.search-bar input {
+
+  padding: 8px;
+
+  width: 250px;
+
+  border: 2px solid #0277bd;
+
+  border-radius: 6px;
+
+}
+
+.search-bar button {
+
+  padding: 8px 15px;
+
+  margin-left: 5px;
+
+  background: #0277bd;
+
+  color: white;
+
+  border: none;
+
+  border-radius: 6px;
+
+  cursor: pointer;
+
+}
+
+.search-bar button:hover {
+
+  background: #01579b;
+
+}
+
+.player-card {
+
+  background: #ffffff;
+
+  padding: 20px;
+
+  margin: 15px auto;
+
+  border-radius: 12px;
+
+  box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+
+  max-width: 600px;
+
+  border-left: 8px solid #388e3c;
+
+  transition: transform 0.3s, background 0.3s;
+
+}
+
+.player-card:hover {
+
+  transform: scale(1.03);
+
+  background: #f1f8e9;
+
+}
+
+.player-header {
+
+  display: flex;
+
+  align-items: center;
+
+  gap: 10px;
+
+}
+
+.player-header img {
+
+  width: 40px;
+
+  height: 30px;
+
+  border-radius: 3px;
+
+}
+
+.player-name {
+
+  font-size: 1.3em;
+
+  font-weight: bold;
+
+  color: #0277bd;
+
+}
+
+.player-country {
+
+  font-size: 1em;
+
+  color: #388e3c;
+
+}
+
+.hidden {
+
+  display: none;
+
+  text-align: center;
+
+  color: red;
+
+  font-weight: bold;
+
+  margin-top: 20px;
+
+}
